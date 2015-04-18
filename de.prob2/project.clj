@@ -5,7 +5,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
   :repositories [["cobra" "http://cobra.cs.uni-duesseldorf.de/artifactory/repo"]]
-  
+
   :source-paths ["src/clj" "src/cljs"]
 
   :dependencies [[org.clojure/clojure "1.6.0"]
@@ -19,7 +19,7 @@
                  [ring/ring-core "1.3.2"]
                  [ring/ring-servlet "1.3.2"]
                  [ring/ring-defaults "0.1.3"]
-                 [com.taoensso/sente "1.3.0"]  
+                 [com.taoensso/sente "1.3.0"]
                  [http-kit "2.1.19"]
                  [prone "0.8.0"]
                  [compojure "1.3.1"]
@@ -27,7 +27,8 @@
                  [environ "1.0.0"]
                  [com.cognitect/transit-clj "0.8.259"]
                  [com.cognitect/transit-cljs "0.8.205"]
-                 [cljs-ajax "0.3.10"]]
+                 [cljs-ajax "0.3.10"]
+                 [dorothy "0.0.6"]]
 
   :plugins [
             [lein-cljsbuild "1.0.4"]
